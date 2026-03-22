@@ -1,0 +1,68 @@
+groups:
+  transcriptomics:
+    description: Bulk and RNA-focused expression analysis workflows.
+    subskills:
+      - bulk-rna-expression
+      - rna-quantification
+      - differential-expression
+      - alternative-splicing
+      - small-rna-seq
+      - ribo-seq
+  single-cell-and-spatial:
+    description: Single-cell, multiome, and spatial transcriptomics workflows.
+    subskills:
+      - scrna-preprocessing-clustering
+      - cell-annotation
+      - cell-communication
+      - trajectory-lineage
+      - multiome-scatac
+      - spatial-transcriptomics
+  epigenomics-and-regulation:
+    description: Chromatin, methylation, RNA modification, and regulatory network analysis.
+    subskills:
+      - atac-seq
+      - chip-seq
+      - methylation-analysis
+      - epitranscriptomics
+      - hi-c-3d-genomics
+      - gene-regulatory-networks
+  genomics-and-variation:
+    description: Variant-centric and genome reconstruction workflows.
+    subskills:
+      - variant-calling
+      - copy-number
+      - long-read-genomics
+      - genome-assembly
+      - comparative-genomics
+      - phasing-imputation
+  metagenomics-and-microbiome:
+    description: Community profiling, microbial comparison, and pathogen-oriented microbial genomics.
+    subskills:
+      - metagenomics
+      - microbiome-amplicon
+      - pathogen-epi-genomics
+      - phylogenetics
+  proteomics-and-metabolomics:
+    description: Protein, metabolite, and spatially resolved mass-cytometry workflows.
+    subskills:
+      - proteomics
+      - metabolomics
+      - imaging-mass-cytometry
+      - structural-biology
+  multi-omics-and-systems:
+    description: Cross-modal integration, pathway interpretation, systems models, and omics ML.
+    subskills:
+      - multi-omics-integration
+      - pathway-analysis
+      - systems-biology
+      - causal-genomics
+      - machine-learning-for-omics
+  core-bioinformatics:
+    description: Shared foundational skills for sequence, QC, data access, reporting, and pipelines.
+    subskills:
+      - sequence-and-format-io
+      - alignment-and-mapping
+      - read-qc
+      - database-access
+      - reporting-and-figure-export
+      - workflow-management

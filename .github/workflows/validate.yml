@@ -1,0 +1,21 @@
+name: Validate Omics Skills
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repository files
+        run: |
+          test -f README.md
+          test -f CONTRIBUTING.md
+          test -f NAME_OPTIONS.md
+          test -f catalog/taxonomy.yaml
+          test -f catalog/source-mapping.md
+      - name: Check generated skills
+        run: |
+          test "$(find skills -name SKILL.md | wc -l | tr -d ' ')" = "43"
