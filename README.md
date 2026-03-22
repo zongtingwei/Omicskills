@@ -78,6 +78,12 @@ This repository will continue to be iterated and expanded over time.
 
 If you find it useful, consider giving the project a star.
 
+## Acknowledgements
+
+This repository is inspired by earlier skill collections including `claude-scientific-skills`, `OpenClaw-Medical-Skills`, and `bioSkills`.
+
+The current project reorganizes and refines those ideas into a more unified omics-oriented library structure.
+
 ## How To Use It
 
 - Browse `skills/` when you want a workflow-oriented entry point.
