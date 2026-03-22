@@ -46,6 +46,12 @@ omics-skills/
 - It keeps high-level categories compact while still allowing specialized leaf skills.
 - It is suitable both as a standalone public skill library and as a source repository for downstream agent packs.
 
+## Project Status
+
+This repository will continue to be iterated and expanded over time.
+
+If you find it useful, consider giving the project a star.
+
 ## How To Use It
 
 - Browse `skills/` when you want a workflow-oriented entry point.
