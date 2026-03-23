@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/omicskills-logo.png" alt="Omics Skills logo" width="360">
+
 # Omics Skills
 
 ### A Curated Skill Library for Bioinformatics and Omics Workflows
