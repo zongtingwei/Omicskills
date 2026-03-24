@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/omicskills-logo.png" alt="Omics Skills logo" width="360">
+<img src="assets/bioclaw_logo.png" alt="Bioclaw Skills logo" width="360">
 
 # Bioclaw_Skills_Hub
 
