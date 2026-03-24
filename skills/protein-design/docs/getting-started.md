@@ -180,6 +180,6 @@ First run downloads model weights (~5-10 min). Subsequent runs are faster.
 
 ## See also
 
-- [Skills](skills.md) - All 21 skills
+- [Skills](skills.md) - All 22 skills
 - [Standard pipeline](standard-pipeline.md) - Full workflow details
 - [Compute setup](compute-setup.md) - Modal vs local setup

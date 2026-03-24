@@ -1,18 +1,18 @@
-<p align="center">
-  <img src="assets/hero_animation.svg" width="560" alt="Protein Design Skills">
-</p>
+# BioClaw Protein Design Pack
 
-<p align="center">
-  <strong>21 agent skills for computational protein design</strong>
-</p>
+A BioClaw protein design pack with 22 agent-readable skills for:
 
-<p align="center">
-  <a href="docs/getting-started.md">Getting started</a> •
-  <a href="docs/skills.md">Skills</a> •
-  <a href="docs/standard-pipeline.md">Pipeline</a>
-</p>
+- binder design
+- sequence design
+- structure prediction
+- protein design QC
+- experimental follow-up planning
 
----
+Key entry points:
+
+- [Getting started](docs/getting-started.md)
+- [Skills](docs/skills.md)
+- [Standard pipeline](docs/standard-pipeline.md)
 
 ## Install
 
@@ -21,37 +21,17 @@
 /plugin install <your-plugin-namespace>
 ```
 
----
-
 ## Setup (first time)
-
-<p align="center">
-  <img src="assets/setup_steps.svg" width="600" alt="Setup steps">
-</p>
 
 → [Getting started](docs/getting-started.md)
 
----
-
 ## Skills
 
-<p align="center">
-  <img src="assets/skill_categories.svg" width="550" alt="Skill categories">
-</p>
-
-→ [View all 21 skills](docs/skills.md)
-
----
+→ [View all 22 skills](docs/skills.md)
 
 ## Pipeline
 
-<p align="center">
-  <img src="assets/pipeline_flow.svg" width="550" alt="Pipeline flow">
-</p>
-
 → [Standard pipeline](docs/standard-pipeline.md)
-
----
 
 ## Quick start
 
@@ -65,51 +45,42 @@ Claude will automatically use the right skills (BoltzGen → Chai → QC).
 - [Reusable templates](templates/)
 - [Executable QC scorer](scripts/protein_qc_score.py)
 
----
-
 ## Links
 
 - [Getting started](docs/getting-started.md)
 - [Skills](docs/skills.md)
 - [Standard pipeline](docs/standard-pipeline.md)
 - [Compute setup](docs/compute-setup.md)
-- [Contributing](CONTRIBUTING.md)
 
 ## Credits
 
-This repository builds on ideas and original materials from
-[`adaptyvbio/protein-design-skills`](https://github.com/adaptyvbio/protein-design-skills/tree/main).
-
-The current version is intended for downstream BioClaw-oriented reuse and has
-been substantially extended, renamed, reorganized, and supplemented with
-additional templates, examples, scripts, and documentation.
-
-This repository should be understood as a derived and expanded skill pack, not
-as a direct mirror of the upstream source.
-
----
+Built on an earlier protein-design skill foundation “adaptyvbio/protein-design-skills” and substantially revised for BioClaw with renamed skills, new templates, scripts, docs, and workflow structure.
 
 ## Contributing
 
-### Creating a new skill
+To add a new skill, create a new folder under `skills/` with a `SKILL.md`
+file, keep cross-skill references explicit, and add any reusable starter files
+to `templates/` or `scripts/` when they improve reproducibility.
 
-The easiest way to create a new skill is with Claude Code:
+Preferred structure:
 
+```text
+skills/<skill-name>/
+└── SKILL.md
 ```
-/skill skill-creator
+
+Optional additions:
+
+```text
+skills/<skill-name>/
+├── SKILL.md
+├── references/
+├── examples/
+└── scripts/
 ```
 
-This uses [Anthropic's skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) to guide you through the process.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
-### Downstream reuse
-
-If you package or publish this repository inside another skill hub, keep the
-credit section intact and update repository metadata, installation instructions,
-and namespace details for the downstream target.
-
----
+Use clear names, plain-English descriptions, explicit inputs and outputs, and
+direct next-step handoffs to related skills.
 
 ## License
 

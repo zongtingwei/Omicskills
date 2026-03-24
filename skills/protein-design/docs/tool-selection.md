@@ -12,6 +12,9 @@ What are you designing?
 │  ├─ Need high success rate → bindcraft
 │  └─ Need all-atom precision → boltzgen
 │
+├─ Backbone exploration with fold control
+│  └─ Need flow-based fold conditioning → proteina-complexa
+│
 ├─ Sequence design (have backbone)
 │  ├─ Standard design → proteinmpnn
 │  ├─ Ligand in binding site → ligandmpnn
@@ -31,6 +34,7 @@ What are you designing?
 | rfdiffusion | Diffusion | High diversity, fast | Needs ProteinMPNN | Exploration |
 | bindcraft | End-to-end | High success rate | Less diverse | Production |
 | boltzgen | All-atom diffusion | Side-chain aware | Slower | Precision |
+| proteina-complexa | Flow matching | Fold conditioning, long-chain exploration | More setup complexity | Controlled backbone generation |
 
 ### Sequence tools
 
@@ -53,6 +57,12 @@ What are you designing?
 ### Standard campaign
 1. rfdiffusion (100-500 backbones)
 2. proteinmpnn (8 sequences each)
+3. chai1-structure-prediction or boltz-structure-prediction (validation)
+4. protein-design-qc (filtering)
+
+### Fold-guided backbone campaign
+1. proteina-complexa (fold-conditioned backbone generation)
+2. proteinmpnn or solublempnn (sequence design)
 3. chai1-structure-prediction or boltz-structure-prediction (validation)
 4. protein-design-qc (filtering)
 
