@@ -1,14 +1,12 @@
 <div align="center">
+<img src="assets/bioclaw_logo.jpg" width="300">
 
-<img src="assets/omicskills-logo.png" alt="Omics Skills logo" width="360">
-
-# Omics Skills
-
+# Bioclaw_Skills_Hub
 ### 生物信息学与组学工作流精选技能库
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**Omics Skills** 是一个面向生物信息学、组学分析与计算生物学的开源可复用技能集合。
+**Bioclaw_Skills_Hub** 是一个面向生物信息学、组学分析与计算生物学的开源可复用技能集合。
 
 本项目围绕真实分析任务进行组织，而非孤立的工具罗列，便于 AI 智能体、工作流系统和科研助手进行浏览、复用与二次开发。
 
