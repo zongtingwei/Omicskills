@@ -12,6 +12,8 @@
 
 It is organized around real analysis tasks rather than isolated tools, making it easier to browse, reuse, and adapt for AI agents, workflow systems, and research assistants.
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 </div>
 
 ## Contents
