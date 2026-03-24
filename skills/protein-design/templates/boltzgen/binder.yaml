@@ -1,0 +1,24 @@
+entities:
+  - protein:
+      id: B
+      sequence: 70..100
+
+  - file:
+      path: ../../examples/minimal-binder-campaign/inputs/1alu_trimmed.cif
+      include:
+        - chain:
+            id: A
+      binding_types:
+        - chain:
+            id: A
+            binding: 45,67,89
+
+output:
+  path: ../../examples/minimal-binder-campaign/outputs/boltzgen
+
+sampling:
+  num_designs: 25
+  seed: 7
+
+protocol:
+  name: protein-anything
