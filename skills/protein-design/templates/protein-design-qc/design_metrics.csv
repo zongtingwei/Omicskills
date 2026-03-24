@@ -1,0 +1,4 @@
+design_id,pLDDT,pTM,ipTM,PAE_interaction,scRMSD,shape_complementarity,interface_dG,esm2_pll_normalized,cysteine_count,instability_index,GRAVY
+design_001,0.91,0.84,0.67,7.8,1.1,0.63,-17.2,0.42,2,24.1,0.08
+design_002,0.88,0.76,0.58,10.1,1.7,0.54,-12.6,0.18,2,31.0,0.16
+design_003,0.80,0.68,0.41,14.6,2.7,0.39,-7.1,-0.11,3,47.8,0.51

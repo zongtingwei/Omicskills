@@ -1,0 +1,7 @@
+# Minimal RFdiffusion binder-design-tool-selection flags
+--pdb ../../examples/minimal-binder-campaign/inputs/1alu_trimmed.pdb
+--contigs A1-150/0 70-100
+--hotspot A45,A67,A89
+--num-designs 100
+--noise-scale 0.8
+--output-prefix ../../examples/minimal-binder-campaign/outputs/rfdiffusion/run
