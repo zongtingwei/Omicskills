@@ -8,7 +8,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**Omics Skills** is a public collection of reusable skills for bioinformatics, omics analysis, and computational biology.
+**Bioclaw_Skills_Hub** is a public collection of reusable skills for bioinformatics, omics analysis, and computational biology.
 
 It is organized around real analysis tasks rather than isolated tools, making it easier to browse, reuse, and adapt for AI agents, workflow systems, and research assistants.
 
