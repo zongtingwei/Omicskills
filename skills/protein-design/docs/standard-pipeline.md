@@ -164,6 +164,6 @@ After filtering:
 
 ## See also
 
-- [Skills](skills.md) - All 21 skills
+- [Skills](skills.md) - All 22 skills
 - [Getting started](getting-started.md) - Setup guide
 - [Compute setup](compute-setup.md) - Modal vs local setup

@@ -1,6 +1,6 @@
 # Skills
 
-All 21 skills available in Protein Design Skills.
+All 22 skills available in Protein Design Skills.
 
 ## Install
 
@@ -13,8 +13,8 @@ Or install specific categories:
 
 | Command | Skills | Description |
 |---------|--------|-------------|
-| `/plugin install <your-plugin-namespace>` | 21 | Everything |
-| `/plugin install design-tools@<your-plugin-source>` | 10 | BoltzGen, BindCraft, RFdiffusion, ProteinMPNN, Chai, etc. |
+| `/plugin install <your-plugin-namespace>` | 22 | Everything |
+| `/plugin install design-tools@<your-plugin-source>` | 11 | BoltzGen, BindCraft, RFdiffusion, ProteinMPNN, Chai, Proteina-Complexa, etc. |
 | `/plugin install evaluation@<your-plugin-source>` | 2 | protein-design-qc, ipsae |
 | `/plugin install utilities@<your-plugin-source>` | 4 | pdb, uniprot, foldseek, setup |
 | `/plugin install experimental@<your-plugin-source>` | 2 | cell-free-protein-expression, spr-bli-binding-characterization |
@@ -22,7 +22,7 @@ Or install specific categories:
 
 ---
 
-## Design tools (10)
+## Design tools (11)
 
 | Skill | Purpose |
 |-------|---------|
@@ -36,6 +36,7 @@ Or install specific categories:
 | `boltz-structure-prediction` | Boltz-1 / Boltz-2 structure prediction (open-source) |
 | `alphafold2-multimer` | AlphaFold2 / Multimer validation and confidence scoring |
 | `esm2-sequence-scoring` | ESM2 sequence scoring and embeddings |
+| `proteina-complexa` | Flow-based backbone generation with fold conditioning |
 
 ## Evaluation (2)
 
@@ -74,7 +75,7 @@ Or install specific categories:
 
 For detailed usage of each skill, see the individual skill documentation:
 
-- **Design tools**: [BoltzGen](../skills/boltzgen/SKILL.md), [BindCraft](../skills/bindcraft/SKILL.md), [RFdiffusion](../skills/rfdiffusion/SKILL.md), [ProteinMPNN](../skills/proteinmpnn/SKILL.md), [LigandMPNN](../skills/ligandmpnn/SKILL.md), [SolubleMPNN](../skills/solublempnn/SKILL.md), [Chai](../skills/chai1-structure-prediction/SKILL.md), [Boltz](../skills/boltz-structure-prediction/SKILL.md), [AlphaFold](../skills/alphafold2-multimer/SKILL.md), [ESM](../skills/esm2-sequence-scoring/SKILL.md)
+- **Design tools**: [BoltzGen](../skills/boltzgen/SKILL.md), [BindCraft](../skills/bindcraft/SKILL.md), [RFdiffusion](../skills/rfdiffusion/SKILL.md), [ProteinMPNN](../skills/proteinmpnn/SKILL.md), [LigandMPNN](../skills/ligandmpnn/SKILL.md), [SolubleMPNN](../skills/solublempnn/SKILL.md), [Chai](../skills/chai1-structure-prediction/SKILL.md), [Boltz](../skills/boltz-structure-prediction/SKILL.md), [AlphaFold](../skills/alphafold2-multimer/SKILL.md), [ESM](../skills/esm2-sequence-scoring/SKILL.md), [Proteina-Complexa](../skills/proteina-complexa/SKILL.md)
 
 - **Evaluation**: [Protein QC](../skills/protein-design-qc/SKILL.md), [ipSAE](../skills/ipsae/SKILL.md)
 

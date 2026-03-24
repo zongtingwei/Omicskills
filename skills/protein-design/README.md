@@ -1,6 +1,6 @@
 # BioClaw Protein Design Pack
 
-A BioClaw protein design pack with 21 agent-readable skills for:
+A BioClaw protein design pack with 22 agent-readable skills for:
 
 - binder design
 - sequence design
@@ -27,7 +27,7 @@ Key entry points:
 
 ## Skills
 
-→ [View all 21 skills](docs/skills.md)
+→ [View all 22 skills](docs/skills.md)
 
 ## Pipeline
 
@@ -54,9 +54,7 @@ Claude will automatically use the right skills (BoltzGen → Chai → QC).
 
 ## Credits
 
-Built on an earlier protein-design skill foundation “adaptyvbio/protein-design-skills” and substantially revised
-for BioClaw with renamed skills, new templates, scripts, docs, and workflow
-structure.
+Built on an earlier protein-design skill foundation “adaptyvbio/protein-design-skills” and substantially revised for BioClaw with renamed skills, new templates, scripts, docs, and workflow structure.
 
 ## Contributing
 
