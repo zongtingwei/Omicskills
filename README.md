@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/bioclaw_logo.jpg" width="200">
+<img src="assets/bioclaw_logo.jpg" width="250">
 
 # Bioclaw_Skills_Hub
 
