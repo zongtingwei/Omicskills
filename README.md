@@ -31,7 +31,7 @@ It is organized around real analysis tasks rather than isolated tools, making it
 
 Bioinformatics workflows are often scattered across many small prompt collections, tool-specific notes, and one-off agent instructions.
 
-**Omics Skills** brings those patterns together into a more consistent repository structure. The goal is to provide a skill library that is easier to curate, easier to route, and easier to reuse across different omics settings, including transcriptomics, single-cell analysis, epigenomics, metagenomics, proteomics, structural biology, and general bioinformatics.
+**Bioclaw_Skills_Hub** brings those patterns together into a more consistent repository structure. The goal is to provide a skill library that is easier to curate, easier to route, and easier to reuse across different omics settings, including transcriptomics, single-cell analysis, epigenomics, metagenomics, proteomics, structural biology, and general bioinformatics.
 
 ## What You Will Find Here
 
@@ -43,7 +43,7 @@ Bioinformatics workflows are often scattered across many small prompt collection
 ## Repository Structure
 
 ```text
-omics-skills/
+Bioclaw_Skills_Hub/
 ├── skills/
 │   ├── transcriptomics/
 │   ├── single-cell-and-spatial/
@@ -53,6 +53,7 @@ omics-skills/
 │   ├── proteomics-and-metabolomics/
 │   ├── multi-omics-and-systems/
 │   └── core-bioinformatics/
+│   └── ...
 ├── catalog/
 ├── scripts/
 └── .github/workflows/
