@@ -52,7 +52,7 @@ Bioclaw_Skills_Hub/
 │   ├── metagenomics-and-microbiome/
 │   ├── proteomics-and-metabolomics/
 │   ├── multi-omics-and-systems/
-│   └── core-bioinformatics/
+│   ├── core-bioinformatics/
 │   └── ...
 ├── catalog/
 ├── scripts/
