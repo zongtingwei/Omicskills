@@ -40,8 +40,8 @@ Use this skill when the user needs:
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/proteomics/references/technical_reference.md) for assay branching, QC interpretation, and missingness handling.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/proteomics/references/commands_and_thresholds.md) for table-loading patterns, QC thresholds, and output conventions.
+- Read [technical_reference.md](references/technical_reference.md) for assay branching, QC interpretation, and missingness handling.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for table-loading patterns, QC thresholds, and output conventions.
 
 ## Expected Inputs
 
@@ -131,8 +131,8 @@ figures/
 
 ## Related Skills
 
-- [Metabolomics](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/metabolomics/SKILL.md)
-- [Structural Biology](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/structural-biology/SKILL.md)
+- [Metabolomics](../metabolomics/SKILL.md)
+- [Structural Biology](../structural-biology/SKILL.md)
 
 ## Optional Supplements
 

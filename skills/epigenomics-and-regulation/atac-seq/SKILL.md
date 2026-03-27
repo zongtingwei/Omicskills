@@ -43,8 +43,8 @@ Use this skill when the user needs:
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/atac-seq/references/technical_reference.md) for QC gates and assay-specific caveats.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/atac-seq/references/commands_and_thresholds.md) for peak-calling commands, thresholds, and output conventions.
+- Read [technical_reference.md](references/technical_reference.md) for QC gates and assay-specific caveats.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for peak-calling commands, thresholds, and output conventions.
 
 ## Prerequisites
 
@@ -154,9 +154,9 @@ figures/
 
 ## Related Skills
 
-- [ChIP Seq](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/chip-seq/SKILL.md)
-- [Gene Regulatory Networks](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/gene-regulatory-networks/SKILL.md)
-- [Multiome And scATAC](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/multiome-scatac/SKILL.md)
+- [ChIP Seq](../chip-seq/SKILL.md)
+- [Gene Regulatory Networks](../gene-regulatory-networks/SKILL.md)
+- [Multiome And scATAC](../../single-cell-and-spatial/multiome-scatac/SKILL.md)
 
 ## Optional Supplements
 

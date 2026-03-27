@@ -44,8 +44,8 @@ Use this skill for count-based DE from bulk RNA-seq or similar count matrices wh
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/transcriptomics/differential-expression/references/technical_reference.md) for design formulas, confounding checks, and contrast logic.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/transcriptomics/differential-expression/references/commands_and_thresholds.md) for PyDESeq2 code, recommended filters, and output file conventions.
+- Read [technical_reference.md](references/technical_reference.md) for design formulas, confounding checks, and contrast logic.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for PyDESeq2 code, recommended filters, and output file conventions.
 
 ## Prerequisites
 
@@ -155,9 +155,9 @@ qc/
 
 ## Related Skills
 
-- [Bulk RNA Expression](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/transcriptomics/bulk-rna-expression/SKILL.md)
-- [RNA Quantification](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/transcriptomics/rna-quantification/SKILL.md)
-- [Pathway Analysis](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/multi-omics-and-systems/pathway-analysis/SKILL.md)
+- [Bulk RNA Expression](../bulk-rna-expression/SKILL.md)
+- [RNA Quantification](../rna-quantification/SKILL.md)
+- [Pathway Analysis](../../multi-omics-and-systems/pathway-analysis/SKILL.md)
 
 ## Optional Supplements
 

@@ -42,8 +42,8 @@ Use this skill when the task is:
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/structural-biology/references/technical_reference.md) for confidence interpretation and source-selection rules.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/structural-biology/references/commands_and_thresholds.md) for AlphaFold DB retrieval patterns, URL layouts, and file conventions.
+- Read [technical_reference.md](references/technical_reference.md) for confidence interpretation and source-selection rules.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for AlphaFold DB retrieval patterns, URL layouts, and file conventions.
 
 ## Expected Inputs
 
@@ -145,8 +145,8 @@ figures/
 
 ## Related Skills
 
-- [Proteomics](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/proteomics-and-metabolomics/proteomics/SKILL.md)
-- [Pathway Analysis](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/multi-omics-and-systems/pathway-analysis/SKILL.md)
+- [Proteomics](../proteomics/SKILL.md)
+- [Pathway Analysis](../../multi-omics-and-systems/pathway-analysis/SKILL.md)
 
 ## Optional Supplements
 

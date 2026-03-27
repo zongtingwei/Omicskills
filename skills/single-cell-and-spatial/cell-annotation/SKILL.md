@@ -43,8 +43,8 @@ Use this skill when the user wants cluster labels or per-cell labels for scRNA-s
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/cell-annotation/references/technical_reference.md) for strategy selection, confidence interpretation, and disagreement handling.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/cell-annotation/references/commands_and_thresholds.md) for concrete CellTypist code, score thresholds, and output columns.
+- Read [technical_reference.md](references/technical_reference.md) for strategy selection, confidence interpretation, and disagreement handling.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for concrete CellTypist code, score thresholds, and output columns.
 
 ## Default Rules
 
@@ -144,9 +144,9 @@ At minimum, keep:
 
 ## Related Skills
 
-- [scRNA Preprocessing And Clustering](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/scrna-preprocessing-clustering/SKILL.md)
-- [Cell Communication](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/cell-communication/SKILL.md)
-- [Trajectory And Lineage](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/trajectory-lineage/SKILL.md)
+- [scRNA Preprocessing And Clustering](../scrna-preprocessing-clustering/SKILL.md)
+- [Cell Communication](../cell-communication/SKILL.md)
+- [Trajectory And Lineage](../trajectory-lineage/SKILL.md)
 
 ## Optional Supplements
 

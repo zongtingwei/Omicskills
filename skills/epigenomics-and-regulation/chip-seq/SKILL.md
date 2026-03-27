@@ -45,8 +45,8 @@ Use this skill for:
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/chip-seq/references/technical_reference.md) for QC gates, narrow-versus-broad logic, and replicate handling.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/chip-seq/references/commands_and_thresholds.md) for MACS3 commands, parameter defaults, and output file conventions.
+- Read [technical_reference.md](references/technical_reference.md) for QC gates, narrow-versus-broad logic, and replicate handling.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for MACS3 commands, parameter defaults, and output file conventions.
 
 ## Prerequisites
 
@@ -160,9 +160,9 @@ qc/
 
 ## Related Skills
 
-- [ATAC Seq](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/atac-seq/SKILL.md)
-- [Methylation Analysis](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/methylation-analysis/SKILL.md)
-- [Gene Regulatory Networks](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/epigenomics-and-regulation/gene-regulatory-networks/SKILL.md)
+- [ATAC Seq](../atac-seq/SKILL.md)
+- [Methylation Analysis](../methylation-analysis/SKILL.md)
+- [Gene Regulatory Networks](../gene-regulatory-networks/SKILL.md)
 
 ## Optional Supplements
 

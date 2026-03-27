@@ -57,6 +57,35 @@ groups:
       - systems-biology
       - causal-genomics
       - machine-learning-for-omics
+  protein-design:
+    description: Protein design, structure prediction, binder engineering, and design-quality workflows.
+    subskills:
+      - alphafold2-multimer
+      - bindcraft
+      - binder-design-campaign-manager
+      - binder-design-tool-selection
+      - boltz-structure-prediction
+      - boltzgen
+      - cell-free-protein-expression
+      - chai1-structure-prediction
+      - end-to-end-protein-design-workflow
+      - esm2-sequence-scoring
+      - foldseek
+      - ipsae
+      - ligandmpnn
+      - pdb
+      - protein-design-qc
+      - proteina-complexa
+      - proteinmpnn
+      - rfdiffusion
+      - setup
+      - solublempnn
+      - spr-bli-binding-characterization
+      - uniprot
+  ehr-analysis:
+    description: Electronic health record analysis, clinical prediction, and patient-sequence modeling workflows.
+    subskills:
+      - ehr-analysis
   core-bioinformatics:
     description: Shared foundational skills for sequence, QC, data access, reporting, and pipelines.
     subskills:

@@ -45,8 +45,8 @@ Use this skill for shotgun metagenomics when the user needs:
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/metagenomics-and-microbiome/metagenomics/references/technical_reference.md) for database choice, host contamination review, and functional profiling caveats.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/metagenomics-and-microbiome/metagenomics/references/commands_and_thresholds.md) for command-line patterns, thresholds, and output layout.
+- Read [technical_reference.md](references/technical_reference.md) for database choice, host contamination review, and functional profiling caveats.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for command-line patterns, thresholds, and output layout.
 
 ## Expected Inputs
 
@@ -136,9 +136,9 @@ qc/
 
 ## Related Skills
 
-- [Microbiome Amplicon](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/metagenomics-and-microbiome/microbiome-amplicon/SKILL.md)
-- [Pathogen Epidemiological Genomics](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/metagenomics-and-microbiome/pathogen-epi-genomics/SKILL.md)
-- [Phylogenetics](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/metagenomics-and-microbiome/phylogenetics/SKILL.md)
+- [Microbiome Amplicon](../microbiome-amplicon/SKILL.md)
+- [Pathogen Epidemiological Genomics](../pathogen-epi-genomics/SKILL.md)
+- [Phylogenetics](../phylogenetics/SKILL.md)
 
 ## Optional Supplements
 

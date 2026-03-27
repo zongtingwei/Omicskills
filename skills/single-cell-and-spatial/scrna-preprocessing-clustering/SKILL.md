@@ -46,8 +46,8 @@ Use this skill to turn raw or minimally processed scRNA-seq data into an analysi
 
 ## Progressive Disclosure
 
-- Read [technical_reference.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/scrna-preprocessing-clustering/references/technical_reference.md) for QC decision rules, assay caveats, and integration branching.
-- Read [commands_and_thresholds.md](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/scrna-preprocessing-clustering/references/commands_and_thresholds.md) for concrete Scanpy code, default thresholds, and output conventions.
+- Read [technical_reference.md](references/technical_reference.md) for QC decision rules, assay caveats, and integration branching.
+- Read [commands_and_thresholds.md](references/commands_and_thresholds.md) for concrete Scanpy code, default thresholds, and output conventions.
 
 ## Default Rules
 
@@ -184,10 +184,10 @@ Always save:
 
 ## Related Skills
 
-- [Cell Annotation](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/cell-annotation/SKILL.md)
-- [Cell Communication](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/cell-communication/SKILL.md)
-- [Trajectory And Lineage](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/trajectory-lineage/SKILL.md)
-- [Multiome And scATAC](/Users/zongtingwei/Desktop/omics-skills-repo-template/skills/single-cell-and-spatial/multiome-scatac/SKILL.md)
+- [Cell Annotation](../cell-annotation/SKILL.md)
+- [Cell Communication](../cell-communication/SKILL.md)
+- [Trajectory And Lineage](../trajectory-lineage/SKILL.md)
+- [Multiome And scATAC](../multiome-scatac/SKILL.md)
 
 ## Optional Supplements
 
