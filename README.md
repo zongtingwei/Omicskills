@@ -24,6 +24,7 @@ It is organized around real analysis tasks rather than isolated tools, making it
 - [What Makes This Repository Useful](#what-makes-this-repository-useful)
 - [Project Status](#project-status)
 - [How To Use It](#how-to-use-it)
+- [Testing Skill Changes](#testing-skill-changes)
 - [Design Principles](#design-principles)
 - [License](#license)
 
@@ -93,6 +94,16 @@ The current project reorganizes and refines those ideas into a more unified omic
 - Browse `skills/` when you want a workflow-oriented entry point.
 - Use `catalog/` when you want the compact taxonomy and source mapping.
 - Reuse individual leaf skills directly, or curate a smaller subset for a production agent environment.
+
+## Testing Skill Changes
+
+Before pushing changes to `skills/`, run the local test pipeline:
+
+```bash
+python3 _bioclaw_test/run_tests.py
+```
+
+Only push skill updates after this test passes. It checks taxonomy consistency, markdown links, absolute filesystem paths, and required reference files.
 
 ## Design Principles
 
