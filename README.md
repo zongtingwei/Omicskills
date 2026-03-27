@@ -3,7 +3,7 @@
 
 # Bioclaw_Skills_Hub
 
-### A Curated Skill Library for Bioinformatics and Omics Workflows
+### Official [Bioclaw](https://github.com/Runchuan-BU/BioClaw) Skills Library for Bioinformatics and Omics Workflows
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
