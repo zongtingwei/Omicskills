@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Bioclaw_Skills_Hub Internal Test Pipeline
 
