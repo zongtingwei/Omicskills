@@ -2,7 +2,7 @@
 <img src="assets/bioclaw_logo.jpg" width="300">
 
 # Bioclaw_Skills_Hub
-### [Bioclaw](https://github.com/Runchuan-BU/BioClaw)生物信息学与组学工作流精选技能库
+### [Bioclaw](https://github.com/Runchuan-BU/BioClaw) 生物信息学与组学工作流精选技能库
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
