@@ -34,6 +34,8 @@ Bioinformatics workflows are often scattered across many small prompt collection
 
 **Bioclaw_Skills_Hub** brings those patterns together into a more consistent repository structure. The goal is to provide a skill library that is easier to curate, easier to route, and easier to reuse across different omics settings, including transcriptomics, single-cell analysis, epigenomics, metagenomics, proteomics, structural biology, and general bioinformatics.
 
+**Complementary external resource:** [Paperzilla](https://github.com/paperzilla-ai/paperzilla-skills) ([ClawHub](https://clawhub.ai/pors/paperzilla)) is a useful companion when omics work depends on conversational literature monitoring. It currently supports project-based bioRxiv and medRxiv feeds, can fetch paper markdown for summarization and relevance assessment, and has PubMed support planned.
+
 ## What You Will Find Here
 
 - task-focused skills for common omics workflows
